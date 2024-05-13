@@ -165,4 +165,9 @@
     width: 180px;
     height: 180px;
   }
+
+  .square-tilted-right,
+  .square-tilted-left {
+    width: 365px;
+  }
 }
