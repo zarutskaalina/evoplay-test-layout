@@ -1,7 +1,15 @@
-.header-container {
+.header {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 55px 0 99px 0;
+}
+
+.header-container {
+  display: flex;
+  gap: 34px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
@@ -49,10 +57,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    padding: 77px 0 63px 0;
+  }
+
   .header-container {
     flex-direction: column;
     gap: 27px;
-    padding: 77px 0 63px 0;
   }
 
   .header-logo {

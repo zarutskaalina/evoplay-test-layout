@@ -1,3 +1,9 @@
+.about-us-section {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .about-us-container {
   display: flex;
   position: relative;
@@ -41,7 +47,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .about-us {
+  .about-us-section {
     padding: 131px 0 259px 0;
   }
 
@@ -67,7 +73,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-us {
+  .about-us-section {
     padding-top: 152px;
   }
 
@@ -95,7 +101,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .about-us {
+  .about-us-section {
     padding: 215px 0;
   }
 

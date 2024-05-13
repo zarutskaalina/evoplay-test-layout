@@ -1,3 +1,9 @@
+.hero-section {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .hero-container {
   display: flex;
   justify-content: space-between;
@@ -60,6 +66,11 @@
   .hero-button-wrapper {
     flex-direction: column;
     gap: 39px;
+  }
+
+  .layer-wrapper img {
+    width: 404px;
+    height: 346px;
   }
 }
 

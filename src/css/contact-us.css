@@ -1,3 +1,9 @@
+.contact-us-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-us-container {
   display: flex;
 }
@@ -65,7 +71,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .contact-us {
+  .contact-us-section {
     padding: 139px 0 284px 0;
   }
 
@@ -101,7 +107,7 @@
 }
 
 @media screen and (max-width: 1199px) {
-  .contact-us {
+  .contact-us-section {
     padding: 139px 0;
   }
 
@@ -122,17 +128,15 @@
 
   .contact-form-wrapper {
     justify-content: center;
-    order: 3;
   }
 
   .contact-us-circle {
     margin-top: 38px;
-    order: 2;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .contact-us {
+  .contact-us-section {
     padding: 152px 0 215px 0;
   }
 

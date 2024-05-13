@@ -1,6 +1,12 @@
+.benefits-section {
+  padding: 120px 0 102px 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .benefits-container {
   position: relative;
-  padding: 120px 0 102px 0;
 }
 
 .benefits-list {
@@ -17,9 +23,9 @@
   height: 228px;
 }
 
-.circle {
-  width: 150px;
-  height: 150px;
+.benefits-circle {
+  width: 154px;
+  height: 154px;
 }
 
 .rectangle h3 {
@@ -45,7 +51,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .benefits-container {
+  .benefits-section {
     padding: 90px 0 107px 0;
   }
 

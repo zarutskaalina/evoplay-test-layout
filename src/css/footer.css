@@ -1,5 +1,8 @@
 .footer {
   background: #3b34a045;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-logo {

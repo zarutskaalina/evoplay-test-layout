@@ -1,9 +1,9 @@
-.statistics {
+.statistics-section {
   background: rgba(59, 52, 160, 0.27);
-}
-
-.statistics-container {
   padding: 99px 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .statistics-list {
@@ -86,7 +86,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .statistics-container {
+  .statistics-section {
     padding: 58px 0;
   }
 
