@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://zarutskaalina.github.io/evoplay-test-layout/",
   "scripts": {
-    "build": "parcel build src/*.html --public-url /zarutskaalina/",
+    "build": "parcel build src/*.html",
     "start": "npx parcel src/index.html"
   },
   "repository": {
