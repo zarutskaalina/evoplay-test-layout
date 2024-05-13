@@ -79,9 +79,9 @@
 
 .square-tilted-right,
 .square-tilted-left {
-  width: 365px;
-  height: 377px;
   border-radius: 25px;
+  width: 400px;
+  height: 416px;
 }
 
 .square-tilted-right {
@@ -109,9 +109,9 @@
     gap: 158px;
   }
 
-  .services-circle {
-    width: 218px;
-    height: 218px;
+  .square-tilted-right,
+  .square-tilted-left {
+    width: 385px;
   }
 }
 
@@ -129,10 +129,13 @@
     margin-bottom: 102px;
   }
 
-  .square-tilted-right,
-  .square-tilted-left {
-    width: 400px;
-    height: 416px;
+  .services-circle {
+    width: 218px;
+    height: 218px;
+  }
+
+  .services-item-text {
+    transform: translateY(80%) rotate(-5.45deg);
   }
 }
 

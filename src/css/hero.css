@@ -72,6 +72,11 @@
     width: 404px;
     height: 346px;
   }
+
+  .hero-radial-gradient {
+    width: 404px;
+    height: 346px;
+  }
 }
 
 @media screen and (min-width: 768px) {

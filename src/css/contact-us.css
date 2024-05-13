@@ -99,14 +99,12 @@
   .contact-us-circle {
     order: 2;
     margin: 38px 0 61px 0;
-  }
-
-  .contact-form-wrapper {
-    order: 3;
+    width: 358px;
+    height: 358px;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .contact-us-section {
     padding: 139px 0;
   }
