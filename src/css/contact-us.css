@@ -1,0 +1,172 @@
+.contact-us-container {
+  display: flex;
+}
+
+.contact-form-wrapper {
+  display: flex;
+}
+
+.contact-text h2 {
+  max-width: 599;
+  font-size: 34px;
+  line-height: 54.03px;
+}
+
+.contact-text p {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  line-height: 36px;
+  max-width: 584px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.contact-form-input {
+  width: 477px;
+  background: #101d4f;
+  border: none;
+  font-size: 18px;
+  line-height: 28.6px;
+  color: #ffffff;
+  font-family: var(--main-font-family);
+}
+
+.contact-form-input::placeholder {
+  color: var(--primary-text-color-theme-dark);
+}
+
+.name-input,
+.phone-input {
+  height: 62px;
+}
+
+.message-input {
+  height: 197px;
+  resize: none;
+  padding-top: 17px;
+}
+
+.button-send-message {
+  width: 100%;
+  height: 62px;
+  font-size: 18px;
+  line-height: 28.6px;
+}
+
+.contact-us-circle {
+  width: 416px;
+  height: 416px;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+
+@media screen and (max-width: 768px) {
+  .contact-us {
+    padding: 139px 0 284px 0;
+  }
+
+  .contact-us-container {
+    flex-direction: column;
+  }
+
+  .contact-form-wrapper {
+    display: flex;
+  }
+
+  .contact-form-input {
+    width: 391px;
+    padding-left: 23px;
+  }
+
+  .contact-text h3 {
+    margin-bottom: 13px;
+  }
+
+  .contact-us-content div {
+    order: 1;
+  }
+
+  .contact-us-circle {
+    order: 2;
+    margin: 38px 0 61px 0;
+  }
+
+  .contact-form-wrapper {
+    order: 3;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .contact-us {
+    padding: 139px 0;
+  }
+
+  .contact-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-content {
+    order: 1;
+  }
+
+  .contact-text {
+    text-align: center;
+    margin-bottom: 49px;
+  }
+
+  .contact-form-wrapper {
+    justify-content: center;
+    order: 3;
+  }
+
+  .contact-us-circle {
+    margin-top: 38px;
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-us {
+    padding: 152px 0 215px 0;
+  }
+
+  .contact-us-container {
+    gap: 146px;
+    align-items: center;
+  }
+
+  .contact-form-wrapper {
+    justify-content: start;
+    gap: 249px;
+  }
+
+  .contact-form-input {
+    padding-left: 29px;
+  }
+
+  .contact-text p {
+    margin-bottom: 49px;
+  }
+
+  .contact-us-circle {
+    position: relative;
+  }
+
+  .contact-us-gradient {
+    width: 1062px;
+    height: 1062px;
+  }
+
+  .concact-us-radial-gradient {
+    width: 597px;
+    height: 597px;
+    top: 50%;
+    left: 50%;
+  }
+}

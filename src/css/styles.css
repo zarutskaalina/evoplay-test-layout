@@ -1,0 +1,139 @@
+@import url('../css/header.css');
+@import url('../css/hero.css');
+@import url('../css/benefits.css');
+@import url('../css/statistics.css');
+@import url('../css/about-us.css');
+@import url('../css/services.css');
+@import url('../css/resources.css');
+@import url('../css/contact-us.css');
+@import url('../css/footer.css');
+
+:root {
+  --main-font-family: 'Mashetic', sans-serif;
+  --secondary-font-family: 'Poppins', sans-serif;
+  --main-font-weight: 400;
+  --accent-color: #f77307;
+  --linear-gradient: linear-gradient(90deg, #3b34a1 0%, #e1400f 100%);
+  --radial-gradient: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(12, 54, 185, 0.69) 0%,
+    rgba(5, 24, 83, 0) 100%
+  );
+  --main-website-bacground-color: rgba(0, 21, 49, 1);
+  --secondary-website-bacground-color: rgba(59, 52, 160, 0.27);
+  --primary-text-color-theme-dark: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.list {
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+body {
+  background: var(--main-website-bacground-color);
+  margin: 0;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--primary-text-color-theme-dark);
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+/* СПІЛЬНЕ */
+.common-buttons {
+  background: var(--linear-gradient);
+  color: var(--primary-text-color-theme-dark);
+  border: none;
+}
+
+.common-buttons:hover,
+.common-buttons:focus {
+  border: 3px solid;
+  background: transparent;
+  border-image: var(--linear-gradient);
+  border-image-slice: 1;
+}
+
+.circle {
+  background: var(--accent-color);
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.radial-gradient {
+  background: var(--radial-gradient);
+  z-index: -1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 91px;
+  padding-right: 91px;
+}
+
+/* Стилі для екранів шириною від 320px до 374px */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Стилі для екранів шириною від 375px до 767px */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container {
+    width: 375px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* Стилі для екранів шириною від 768px до 1199px */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* Стилі для екранів шириною 1200px і більше */
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}

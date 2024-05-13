@@ -1,0 +1,149 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-list {
+  display: flex;
+  position: relative;
+}
+
+.services-text h2 {
+  font-size: 38px;
+  line-height: 60.38px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.services-text p {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.services-item {
+  position: relative;
+}
+
+.services-item-text {
+  padding-top: 26px;
+  text-align: center;
+  position: absolute;
+  transform: translateY(50%) rotate(-5.45deg); /* Змінено звичайне обертання на трансформацію з підняттям на половину висоти тексту */
+}
+
+.services-item-text h2 {
+  font-size: 28px;
+  line-height: 44.49px;
+  margin-bottom: 15px;
+}
+
+.services-item-text p {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container button:hover,
+.button-container button:focus {
+  color: var(--primary-text-color-theme-dark);
+}
+
+.services-item-text button {
+  width: 149px;
+  height: 29px;
+  color: #e1400f;
+  font-size: 18px;
+  line-height: 28.6px;
+  border: none;
+  background: transparent;
+  gap: 11px;
+  align-items: center;
+  display: flex;
+}
+
+.square-tilted-right,
+.square-tilted-left {
+  width: 400px;
+  height: 416px;
+  border-radius: 25px;
+}
+
+.square-tilted-right {
+  transform: rotate(5.45deg);
+  background: #101d4f;
+}
+
+.square-tilted-left {
+  transform: rotate(174.55deg);
+  background: #2c2b2b70;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    padding-bottom: 241px;
+  }
+
+  .services-container {
+    gap: 102px;
+  }
+
+  .services-list {
+    flex-wrap: wrap;
+    gap: 158px;
+  }
+
+  .services-circle {
+    width: 218px;
+    height: 218px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services {
+    padding: 172px 0;
+  }
+
+  .services-list {
+    flex-direction: column;
+    gap: 107px;
+  }
+
+  .services-text {
+    margin-bottom: 102px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services {
+    padding-bottom: 214px;
+  }
+
+  .services-text {
+    max-width: 996px;
+  }
+
+  .services-list {
+    gap: 40px;
+    margin-top: 95px;
+    justify-content: space-between;
+  }
+
+  .services-radial-gradient {
+    width: 920px;
+    height: 484px;
+    top: 50%;
+    left: 50%;
+  }
+}

@@ -1,0 +1,148 @@
+.footer {
+  background: #3b34a045;
+}
+
+.footer-logo {
+  font-size: 38px;
+  line-height: 60.38px;
+  color: #df3d0f;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--primary-text-color-theme-dark);
+}
+
+.navigation-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-information-item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.footer-headings {
+  font-size: 28px;
+  line-height: 44.49px;
+  margin-bottom: 60px;
+}
+
+.quick-links-wrapper,
+.legal-wrapper,
+.company-information-wrapper,
+.careers-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.footer-link {
+  color: var(--primary-text-color-theme-dark);
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+.careers-text {
+  max-width: 330px;
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.copyright-text {
+  font-size: 18px;
+  line-height: 28.6px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 119px 0 65px;
+  }
+
+  .navigation-wrapper {
+    gap: 119px;
+    align-items: center;
+  }
+
+  .navigation-list {
+    flex-direction: column;
+    gap: 198px;
+  }
+
+  .quick-links-wrapper,
+  .legal-wrapper,
+  .careers-wrapper {
+    align-items: center;
+  }
+
+  .footer-headings {
+    text-align: center;
+  }
+
+  .careers-text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: 86px 0 72px 0;
+  }
+
+  .navigation-wrapper {
+    gap: 69px;
+  }
+
+  .navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .company-information-wrapper {
+    width: 321px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding: 86px 0 72px 0;
+  }
+
+  .navigation-wrapper {
+    gap: 69px;
+  }
+
+  .navigation-list {
+    justify-content: space-between;
+  }
+
+  .company-information-wrapper {
+    width: 321px;
+  }
+
+  .careers-text {
+    margin-top: 28px;
+  }
+}

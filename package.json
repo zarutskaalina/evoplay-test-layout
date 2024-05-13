@@ -1,0 +1,31 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://zarutskaalina.github.io/evoplay-test-layout/",
+  "scripts": {
+    "build": "parcel build src/*.html --public-url /zarutskaalina/",
+    "start": "npx parcel src/index.html"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-html": "^2.12.0",
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.12.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "parcel": {
+    "transformers": {
+      "*.html": [
+        "@parcel/transformer-html"
+      ]
+    }
+  }
+}
